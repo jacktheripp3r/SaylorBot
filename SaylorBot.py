@@ -61,7 +61,7 @@ while True:
         percentreturn = '+' + percentreturn
     else:
         percentreturn = '-' + percentreturn
-    tweet = f'Micheal Saylor\'s Bitcoin Average: ~${average}\n\nProfit/Loss: {finalpl}({percentreturn}%)\n\nBitcoin Hodled: ~₿{quantity}\n\nTotal Investment: {investment}\n\nLearn from the Gigachad. Keep Stacking Sats.\n\n#Bitcoin'
+    tweet = f'Michael Saylor\'s Bitcoin Average: ~${average}\n\nProfit/Loss: {finalpl}({percentreturn}%)\n\nBitcoin Hodled: ~₿{quantity}\n\nTotal Investment: {investment}\n\nLearn from the Gigachad. Keep Stacking Sats.\n\n#Bitcoin'
     api.update_status(tweet)
     time.sleep(1800)
 
