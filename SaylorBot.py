@@ -49,8 +49,8 @@ while True:
             num /= 1000.0
         return '${} {}'.format('{:f}'.format(num).rstrip('0').rstrip('.'), ['', 'K', 'Mn', 'Bn', 'Tn'][magnitude])
     ltp = round(response.json()['data'][0]['quote']['USD']['price'], 2)
-    average = 26769
-    quantity = 108992
+    average = 27713
+    quantity = 114042
     
     pl = ltp - average
     investment = human_format(average*quantity)
